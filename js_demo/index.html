@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=!, initial-scale=1.0">
+    <title>Sanjana | One Republic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <h1>Today I will tell you all about one of my favorite bands, OneRepublic</h1>
+    <h2>The lead singer of the band is Ryan Tedder</h2>
+    <p>Click here to search to find more information on him: <a href="http://www.google.com"
+    target="_blank" onclick="alert('Warning! You are leaving my site.\nPlease come back soon!!')">Google</a></p>
+
+    <h2>How many years has the band been together?</h2>
+    <p>What is 16+7?</p>
+    <button onclick="document.getElementById('add').innerHTML = 16+7">Clcik here for the answer</button>
+    <p id="add"></p>
+
+    <h2>What is their most popular song?</h2>
+    <button onclick="document.getElementById('change-text').innerHTML='Counting Stars, released in 2014 remains to be the bands biggest hit of all time!'">Click me to find out </button>
+    <p id="change-text">Drum roll please...</p>
+
+    <h2>Put that into comparison with the exact date and time it is the moment you're veiwing this!</h2>
+    <button onclick="document.getElementById('date').innerHTML= Date ()">Click here for the date and time</button>
+    <p id="date"></p>
+
+    <h2>What was name did Ryan Tedder give the band before it got its coined named</h2>
+    <p>It sure is an interesting one!</p>
+    <button onclick="pFun()">Click me to find out!</button>
+    <p id="p-fun"></p>
+
+    <h2>What is your name?</h2>
+    <button onclick="askName()">Click here to enter your name</button>
+    <p id="ask-name"></p>
+
+    <h2>Its trivia time!!</h2>
+    <button onclick="askQuestion()">Click here for the question</button>
+    <p id="question"></p>
+
+    <h>Here is a pic of the band:</h>
+    <button onclick="showImg()">Click me for a surprise!</button>
+    <img id="surprise" width="500px">
+
+    <script>
+        function showImg() {
+            var image = document.getElementById('surprise');
+            image.src = 'images/onerepublic_pic.jpg';
+        }
+
+        //alert("Be prepared to be immersed into the world of Ryan Tedder!\nHe is an amazing singer!!");
+        //alert("Do you like music?")
+
+        function pFun() {
+            var p=document.getElementById('p-fun');
+            p.innerHTML='The original name was "Republic"';
+            p.style.fontSize = '30px';
+            p.style.color = 'red';
+        }
+    </script>
+</body>
+</html>

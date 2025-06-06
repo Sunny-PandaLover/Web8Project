@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(210, 225, 237);
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+    font-size: x-large;
+}
+
+ol {
+    font-size: x-large;
+}
+
+p {
+    font-size: x-large;
+    margin: auto;
+}
+
+#alpenglow1 {
+    font-size: 50px;
+    color: rgb(126, 19, 121);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#alpenglow2 {
+    font-size: 50px;
+    color: rgba(179, 74, 173, 0.833);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+#alpenglow3 {
+    font-size: 50px;
+    color: rgba(155, 99, 152, 0.833);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 1000 px;
+    margin: 0 auto;
+    border: 35px groove rgb(140, 54, 183);
+    padding: 50 px;
+    background-color:rgb(122, 167, 233);
+}
+
+.image-caption {
+    text-align: center;
+    border: 3px
+    dotted rgb(24, 28, 112);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-caption2 {
+    text-align: center;
+    border: 30px
+    ridge rgba(198, 148, 220, 0.587);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.image-caption3 {
+     text-align: center;
+    border: 30px
+    ridge rgba(125, 137, 211, 0.587);
+    width: fit-content;
+    margin: 0 auto;
+}

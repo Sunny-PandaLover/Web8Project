@@ -1,0 +1,34 @@
+body {
+    background-color: beige;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    width: 1000 px;
+    margin: 0 auto;
+    border: 1px groove rgb(223, 104, 104);
+    padding: 50 px;
+    background-color:darksalmon;
+}
+
+.image-caption {
+    text-align: center;
+    border: 3px
+    dotted rgb(40, 119, 69);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#panda {
+    font-size: 50px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

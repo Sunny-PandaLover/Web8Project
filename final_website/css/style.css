@@ -1,0 +1,109 @@
+body {
+    background-color:rgb(198, 241, 247);
+}
+
+li {
+    font-size: 20px;
+}
+
+ol {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#me_pic_1 {
+    font-size: 40px;
+    color: rgb(126, 19, 121);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.image-caption {
+    text-align: center;
+    border: 3px
+    dotted rgb(24, 28, 112);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#book_pic {
+    font-size: 40px;
+    color: rgb(36, 117, 193);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.image-caption2 {
+    border: 3px
+    dotted rgb(21, 78, 147);
+    width: fit-content;
+    margin: 0 auto;
+    border: 3px
+}
+
+#me_pic_2 {
+    font-size: 40px;
+    color: rgb(31, 182, 124);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.image-caption3 {
+    text-align: center;
+    border: 3px
+    dotted rgb(12, 74, 34);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#me_pic_3 {
+    font-size: 40px;
+    color: rgb(209, 110, 212);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.image-caption4 {
+    text-align: center;
+    border: 3px
+    dotted rgb(77, 23, 118);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#me_pic_4 {
+    font-size: 32px;
+    color: rgb(101, 8, 145);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.image-caption5 {
+    text-align: center;
+    border: 3px
+    dotted rgb(240, 169, 61);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.nav {
+    list-style: none;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    background-color:rgb(198, 229, 247);
+    text-align: center;
+    border: 30px groove cornflowerblue;
+}
